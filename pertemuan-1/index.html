@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: 'Times New Roman', Times, serif; text-align: center; background-color: rgb(5, 168, 255); }
+        h1 { color: purple; text-shadow: 2px 2px 4px rgb(34, 32, 32); }
+        p { color: black; text-shadow: 2px 2px 4px rgb(232, 225, 225); }
+        h2 { color: purple; text-shadow: 2px 2px 4px rgb(34, 32, 32); }
+        h3 { color: black; }
+        li { color: black; }
+
+        .foto-profil {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 5px 5px 10px rgb(58, 57, 57);
+        }
+
+        ul { list-style-position: inside; list-style-type: square; padding-left: 0; display: inline-block; text-align: left; }
+    </style>
+    <title>Portofolio Fiky Ramahdani</title>
+</head>
+<body>
+    <h1>Fiky Ramahdani</h1>
+    <h2>Mahasiswa Sistem Informasi Universitas Ahmad Dahlan</h2>
+    <p>Halo! Nama saya Fiky Ramahdani, biasa dipanggil Kyy. Saya dari prodi Sistem Informasi angkatan 24.</p>
+    <p>Saya masuk SI karena saya ingin tahu bagaimana cara teknologi bisa membantu menyelesaikan masalah di masyarakat.</p>
+    <p>Oh ya, saya asli Sumatera Utara, tapi bukan di Medan, agak ujung sedikit dekat Riau, yap di Padang Lawas Utara.</p>
+
+    <img src="foto.jpg" alt="Foto profil Fiky Ramahdani" width="350" class="foto-profil">
+    <marquee style="color: green; text-shadow: 2px 2px 4px rgb(68, 70, 71);">Hallo kakak asprak</marquee>
+    <marquee style="color: green; text-shadow: 2px 2px 4px rgb(68, 70, 71);">Semangat kak</marquee>
+    <marquee style="color: green; text-shadow: 2px 2px 4px rgb(68, 70, 71);">Go Faster selalu</marquee>
+
+    <h3>Hobi Saya:</h3>
+    <ul>
+        <li>Bermain game</li>
+        <li>Memancing</li>
+        <li>Mendaki kalau diajak doang</li>
+    </ul>
+
+    <h3>dibawah ini css dan html yang saya coba di W3Schools:</h3>
+    <p><code>&lt;style&gt;</code> di dalam head untuk Internal CSS.<br>W3Schools: HTML &rarr; HTML CSS</p>
+    <p><code>style="..."</code> langsung di tag marquee untuk Inline CSS.<br>W3Schools: HTML &rarr; HTML CSS</p>
+    <p><code>font-family</code> untuk mengganti jenis huruf.<br>W3Schools: CSS &rarr; CSS Fonts &rarr; Font Family</p>
+    <p><code>color</code> untuk mengatur warna tulisan.<br>W3Schools: CSS &rarr; CSS Text &rarr; Text Color</p>
+    <p><code>text-align: center</code> untuk membuat tulisan rata tengah.<br>W3Schools: CSS &rarr; CSS Text &rarr; Text Alignment</p>
+    <p><code>background-color</code> untuk mengatur warna latar.<br>W3Schools: CSS &rarr; CSS Backgrounds &rarr; Background Color</p>
+    <p><code>rgb()</code> untuk menentukan warna dengan angka merah, hijau, biru.<br>W3Schools: CSS &rarr; CSS Colors &rarr; RGB / RGBA</p>
+    <p><code>text-shadow</code> untuk memberi bayangan pada tulisan.<br>W3Schools: CSS &rarr; CSS Text &rarr; Text Shadow</p>
+    <p><code>.foto-profil</code> sebagai class selector untuk memberi gaya khusus pada foto.<br>W3Schools: CSS &rarr; CSS Selectors &rarr; Selectors</p>
+    <p><code>box-shadow</code> untuk memberi bayangan pada foto.<br>W3Schools: CSS &rarr; CSS Shadows &rarr; Box Shadow</p>
+    <p><code>display: block</code>, <code>margin-left: auto</code>, dan <code>margin-right: auto</code> untuk menengahkan foto.<br>W3Schools: CSS &rarr; CSS Image Centering</p>
+    <p><code>list-style-type</code> dan <code>list-style-position</code> untuk mengatur titik daftar hobi.<br>W3Schools: CSS &rarr; CSS Lists &rarr; Styling Lists</p>
+    <p><code>padding-left: 0</code> untuk menghapus jarak bawaan daftar hobi.<br>W3Schools: CSS &rarr; CSS Padding &rarr; Padding</p>
+    <p><code>display: inline-block</code> agar daftar hobi berada di tengah.<br>W3Schools: CSS &rarr; CSS Inline-block</p>
+    <p><code>&lt;code&gt;</code> untuk menampilkan nama kode di bagian ini.<br>W3Schools: HTML &rarr; HTML Computercode</p>
+    <p><code>&amp;lt;</code>, <code>&amp;gt;</code>, dan <code>&amp;rarr;</code> untuk menampilkan simbol sebagai tulisan.<br>W3Schools: HTML &rarr; HTML Entities</p>
+    <p><code>onclick</code> dan <code>Date()</code> pada tombol untuk menampilkan tanggal.<br>W3Schools: HTML &rarr; HTML JavaScript</p>
+    <p><code>&lt;marquee&gt;</code> untuk teks berjalan.<br>Sumber: materi kelas bersama pak whois (tidak ada di W3Schools)</p>
+
+    <p>Kunjungi profil Instagram saya di <a href="https://www.instagram.com/kyyramdni">sini</a>, follow ya!</p>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    <p id="demo"></p>
+</body>
+</html>
